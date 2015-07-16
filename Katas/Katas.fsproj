@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="MontyHall.fsx" />
+    <None Include="Diamond.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
