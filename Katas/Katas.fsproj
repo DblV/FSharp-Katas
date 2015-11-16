@@ -45,6 +45,9 @@
     <None Include="MontyHall.fsx" />
     <None Include="Diamond.fsx" />
     <None Include="NaughtyOrNice.fsx" />
+    <None Include="OddEven.fsx" />
+    <None Include="PerfectNumbers.fsx" />
+    <None Include="FizzBuzz.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

@@ -39,3 +39,11 @@ let diamond2 letter =
     stringsToPrint |> List.rev |> List.tail |> List.map (printfn "%s") |> ignore
 
 // 3 - mapi?
+// builds a new collection by applying a function to each of the elements in the collection.
+// the integer index passed to the function indicates the index of the element being transformed
+// e.g.
+let mapping i j =
+    printfn "%i" i
+    j + 1
+
+List.mapi mapping [1..10]

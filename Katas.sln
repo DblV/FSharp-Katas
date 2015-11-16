@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Katas", "Katas\Katas.fsproj", "{1291E6EE-38BA-4460-93EC-7AABE972C8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas C Sharp", "ClassLibrary1\Katas C Sharp.csproj", "{7207ABEA-B497-4C47-907F-5C637D9D181D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1291E6EE-38BA-4460-93EC-7AABE972C8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1291E6EE-38BA-4460-93EC-7AABE972C8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1291E6EE-38BA-4460-93EC-7AABE972C8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7207ABEA-B497-4C47-907F-5C637D9D181D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7207ABEA-B497-4C47-907F-5C637D9D181D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7207ABEA-B497-4C47-907F-5C637D9D181D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7207ABEA-B497-4C47-907F-5C637D9D181D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

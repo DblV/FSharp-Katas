@@ -24,7 +24,7 @@ let printSantasListItem santasListItem =
 let goodBadChildren niceFunction = 
     names
     |> List.map niceFunction
-    |> List.map (fun x -> printSantasListItem x)
+    |> List.map printSantasListItem
 
 goodBadChildren (fun x -> { Name=x; IsNice=isNice() })
 
